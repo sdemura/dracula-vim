@@ -2,6 +2,8 @@
 
 > A dark theme for [Vim](http://vim.org).
 
+A fork of https://github.com/dracula/vim
+
 ![Screenshot](https://draculatheme.com/assets/img/screenshots/vim.png)
 
 ## Install
