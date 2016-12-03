@@ -18,6 +18,9 @@ if exists("syntax_on")
   syntax reset
 endif
 
+" Set fillchars so that splits use a vertical line
+set fillchars+=vert:│
+
 let g:colors_name = "dracula"
 
 hi Cursor ctermfg=17 ctermbg=231 cterm=NONE guifg=#282a36 guibg=#f8f8f0 gui=NONE
@@ -27,7 +30,7 @@ hi CursorColumn ctermbg=234 cterm=NONE guifg=NONE guibg=#44475a gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3d3f49 gui=NONE
 hi LineNr ctermfg=60 ctermbg=NONE cterm=NONE guifg=#909194 guibg=#282a36 gui=NONE
 hi VertSplit ctermfg=244 ctermbg=NONE cterm=bold guifg=#64666d guibg=#64666d gui=bold
-hi MatchParen ctermfg=212 ctermbg=NONE cterm=underline guifg=#ff79c6 guibg=NONE gui=underline
+hi MatchParen ctermfg=212 ctermbg=NONE cterm=bold guifg=#ff79c6 guibg=NONE gui=bold
 hi StatusLine ctermfg=231 ctermbg=236 cterm=bold guifg=#f8f8f2 guibg=#64666d gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=236 cterm=NONE guifg=#f8f8f2 guibg=#64666d gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=60 cterm=NONE guifg=NONE guibg=NONE gui=NONE
